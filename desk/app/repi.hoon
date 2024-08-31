@@ -48,7 +48,7 @@
       ~&  >>  "Overlapping pals: {<overlapping-pals>}"
       ~&  >>  "Time taken: {<(sub now.bol start-time)>}"
       :_  this
-      [%give %fact ~ %pal-overlap !>(overlapping-pals)]~
+      [%give %fact ~[/repi] %pal-overlap !>(overlapping-pals)]~
     ::
         %clear-state
       `this(my-pals ~, their-product ~)
