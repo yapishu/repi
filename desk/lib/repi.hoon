@@ -1,5 +1,5 @@
 |%
-++  prime-list
+++  prime-list :: for efficiency, a small static list of primes
   ^-  (list @)
   :~  101
       103
